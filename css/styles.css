@@ -10,8 +10,12 @@ body {
 
 ul {list-style-type: none;}
 
-a {text-decoration: none;}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
 
+/* Hedder */
 .ws-logo {
     font-family: 'Raleway', sans-serif;
     color: #2E2F42;
@@ -25,3 +29,109 @@ a {text-decoration: none;}
 .ws-logo-blue {
     color: #4D5AE5;
 }
+
+.heder-link {
+    font-style: normal;
+    color: #2E2F42;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+}
+
+.heder-link:hover, .heder-link:active, .heder-link:focus {
+    color: #404BBF;
+}
+
+.heder-link:active, .heder-link:focus {
+    text-decoration: underline;
+}
+
+.heder-adress {
+    color: #434455;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.heder-adress:hover, .heder-adress:active, .heder-adress:focus {
+    color: #404BBF;
+}
+
+/* Hero */
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    color: #fff;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
+.hero-button {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.64px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.hero-button:hover, .hero-button:active, .hero-button:focus {
+    background-color: #404bbf;
+}
+
+h2 {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+/* Our Team */
+.team {
+    background-color: #F4F4FD;
+    text-align: center;
+}
+
+.team-mark {
+    border-radius: 0px 0px 4px 4px;
+    background-color: #fff;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-tom {
+    background-color: #fff;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-camila {
+    background-color: #fff;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-daniel {
+    background-color: #fff;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+/* Our Portfolio */
